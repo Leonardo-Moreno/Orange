@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.senac.sp.l13.orange.SignActivity"
+    android:background="@color/colo1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textColor="@color/color2"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="User Name/e-mail address"
+     android:textColor="@color/color2"
+     android:layout_marginTop="50dp"
+     android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colo3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp">
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/color2"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colo3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp">
+    </EditText>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Create a new account"
+           android:textColor="@color/color2"
+           android:background="@color/colo3"
+           android:layout_marginTop="40dp"
+           android:padding="20dp"
+           android:textSize="14sp"
+           android:layout_marginLeft="20dp"
+           />
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Sign in"
+           android:textColor="@color/color2"
+           android:background="@color/colo3"
+           android:layout_marginTop="40dp"
+           android:padding="20dp"
+           android:textSize="14sp"
+           android:layout_marginLeft="50dp"
+
+           />
+   </LinearLayout>
+
+
+
+</LinearLayout>
